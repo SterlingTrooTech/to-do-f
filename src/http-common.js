@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:8080/todo",
+  baseURL: "https://s-to-do-be.herokuapp.com/todo",
   headers: {
     "Content-type": "application/json"
   }
