@@ -10,7 +10,7 @@ import toDoService from "../services/toDoApi"
 export const addToDo = (data) => async (dispatch) => {
   try{
     const res = await toDoService.create(data);
-    console.log(res);
+    
     return Promise.resolve(res);
   } catch(err) {
     return Promise.reject(err);
