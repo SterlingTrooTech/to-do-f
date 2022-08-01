@@ -57,7 +57,7 @@ let ToDoMForm = (props) => {
    
 
   return(
-    <div className='wrapper'>
+    <>
       <div className='form1'>
         <p className='tableTitle'>{id?  "Edit To-Do" : "Add To-Do" }</p>
         <form onSubmit={handleSubmit(FormSubmit)}>
@@ -89,7 +89,7 @@ let ToDoMForm = (props) => {
           <SnackBarSuccess open={open} handleClose={() => handleClose()} />
         </form>
       </div>
-    </div>
+    </>
   );
 };
 
