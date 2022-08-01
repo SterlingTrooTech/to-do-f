@@ -21,8 +21,6 @@ function App() {
       <div>
         <Switch>
           <Route exact path={["/", "/todos"]} component={ToDoList} />
-          {/* <Route exact path="/add" component={ToDoMForm} />
-          <Route path="/todos/:id" component={ToDoMForm} /> */}
           <Route exact path={["/add", "/todos/:id"]} component={ToDoMForm} />
         </Switch>
       </div>
