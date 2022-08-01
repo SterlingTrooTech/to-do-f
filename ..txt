@@ -1,0 +1,30 @@
+    1) Create to-do task
+        a. Create to-do
+            i. Fields: 
+                1. User name (Textfield). Validation -> Accept only alphabets with white space, and max length 15 characters
+                2. Gender (Use Radio) - > Values = Male, Female
+                3. Hobbies (Use Checkbox) - > Values => Sports, Reading, Music. 
+                4. Age (Slider) -> Values (18 to 55) (Slider)
+                5. Date (Date picker) 
+                6. Task name
+                7. Status (Select /Radio )-> Values => Active, Inactive
+                8. Action. (Edit /Delete)
+        b. Edit to-do
+            i. Need to update all field 
+        c. Delete item
+        d. List to-do
+            i. Create table for listing to-do.
+            ii. Show all data of created to-do.
+            iii. Set edit and delete icon in action row
+
+
+
+
+
+
+export const CREATE_TODO = "CREATE_TODO";
+
+dispatch({ type: CREATE_TODO, payload: res.data });
+
+case CREATE_TODO:
+  return {toDoList : [...state?.toDoList, payload] }
