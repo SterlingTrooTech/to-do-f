@@ -2,7 +2,7 @@
   max-width: 320px;
   margin: 5px auto auto auto;
   background-color: #fafafa;
-  padding: 0px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
   border-radius: 0px 0px 10px 10px;
   font-size: 25px;
   max-height: 600px;
@@ -12,28 +12,26 @@
 .form2{
   max-width: 1200px;
   margin: 2px auto auto auto;
-  background-color: #fafafa;
+  background-color: #116d99;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
   border-radius: 0px 0px 10px 10px;
   font-size: 25px;
-  max-height: 600px;
+  max-height: 525px;
 }
 
 .table1{
   max-width: 1200px;
   margin-top: 2px;
-  background-color: #fafafa;
-  padding-top: 20px;
+  background-color: #116d99;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
   border-radius: 0px 0px 10px 10px;
+  max-height: 485px;
   margin-top: 5px;
   font-size: 25px;
-  max-height: 500px;
   overflow-y: auto;
 }
 
@@ -48,11 +46,20 @@
 
 .tableTitle{
   font-size: 20px;
-  color: #2a2a31;
+  color: #ffffff;
   float: left;
   padding-right: 10px;
   margin: 0px 0px 10px 0px;
 }
+
+.formTitle{
+  font-size: 20px;
+  color: #000000;
+  float: left;
+  padding-right: 10px;
+  margin: 0px 0px 10px 0px;
+}
+
 
 .deleteAll{
   float: left;

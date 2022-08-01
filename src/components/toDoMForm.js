@@ -59,7 +59,7 @@ let ToDoMForm = (props) => {
   return(
     <>
       <div className='form1'>
-        <p className='tableTitle'>{id?  "Edit To-Do" : "Add To-Do" }</p>
+        <p className='formTitle'>{id?  "Edit To-Do" : "Add To-Do" }</p>
         <form onSubmit={handleSubmit(FormSubmit)}>
           <div className='rows'>
             <Field name="userName" component={renderTextField} label="User Name" />
