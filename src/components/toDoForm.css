@@ -2,10 +2,7 @@
   max-width: 320px;
   margin: 5px auto auto auto;
   background-color: #fafafa;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 0px 15px 15px 15px;
   border-radius: 0px 0px 10px 10px;
   font-size: 25px;
   max-height: 600px;
@@ -53,6 +50,7 @@
   color: #2a2a31;
   float: left;
   padding-right: 10px;
+  margin: 0px 0px 10px 0px;
 }
 
 .deleteAll{
