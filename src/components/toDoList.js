@@ -28,7 +28,7 @@ const ToDoList = () => {
 
   useEffect(() => {
     dispatch(getAllToDos());
-  }, []);
+  });
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
