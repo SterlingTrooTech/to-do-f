@@ -111,7 +111,7 @@ const ToDoList = () => {
         <TablePagination
           component="div"
           rowsPerPageOptions={[5]}
-          count={toDos.length}
+          count={toDos?.length || 0 }
           rowsPerPage={rowsPerPage}
           page={page}
           onPageChange={handleChangePage}
