@@ -24,7 +24,7 @@ const ToDoList = () => {
   const [open, setOpen] = useState(false);
   const [dataId,setDataId] = useState(0);
   const [page, setPage] = useState(0);
-  const rowsPerPage = 5;
+  const rowsPerPage = 10;
 
   useEffect(() => {
     dispatch(getAllToDos());
@@ -58,7 +58,7 @@ const ToDoList = () => {
       <div className='table1'>
       <Paper sx={{ width: '100%', overflow: 'hidden' }}>
         <TableContainer>
-          <Table stickyHeader aria-label="sticky table">
+          <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
             <TableHead>
               <TableRow>
                 <TableCell>User Name</TableCell>
